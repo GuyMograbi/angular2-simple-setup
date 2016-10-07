@@ -5,11 +5,10 @@
  - https://angular.io/docs/ts/latest/quickstart.html
  - http://www.mograblog.com/2016/07/the-many-ways-of-running-typescript.html - yup...
  - http://blog.thoughtram.io/angular/2015/09/17/resolve-service-dependencies-in-angular-2.html
+ - https://angular.io/docs/ts/latest/cookbook/a1-a2-quick-reference.html#!#template-directives
+ - http://stackoverflow.com/questions/38880150/angular-2-cant-bind-to-ngmodel-since-it-isnt-a-known-property-of-input
 
-#
-
-
-commands I used
+# commands I used
 
 ```
 npm install -S @angular/core
@@ -33,4 +32,23 @@ npm install -S @angular/compiler
 npm install -S systemjs
 npm install -D lite-server
 
+npm install -S @angular/forms
+
 ```
+
+
+# Roadmap
+
+ - [X] Do an Http request
+ - [X] use directives ng-if and ng-repeat
+ - [ ] Write a filter
+ - [ ] Fix live reload with typescript
+ - [ ] Add routes
+ - [ ] Write another component with events
+ - [ ] Write a test
+ - [ ] Write an external module and import it
+ 
+Consider also 
+ 
+ - [ ] Write a simple setup to System for angular. 
+ - [ ] Write a post
