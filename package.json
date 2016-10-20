@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "postinstall": "typings install",
-    "start": "lite-server"
+    "start": "lite-server -c lite-server.json"
   },
   "dependencies": {
     "@angular/common": "^2.0.2",

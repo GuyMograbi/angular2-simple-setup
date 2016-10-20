@@ -7,6 +7,10 @@
  - http://blog.thoughtram.io/angular/2015/09/17/resolve-service-dependencies-in-angular-2.html
  - https://angular.io/docs/ts/latest/cookbook/a1-a2-quick-reference.html#!#template-directives
  - http://stackoverflow.com/questions/38880150/angular-2-cant-bind-to-ngmodel-since-it-isnt-a-known-property-of-input
+ - http://stackoverflow.com/questions/39900817/how-to-use-http-providers-in-angular2-ga/39947206#39947206
+ - http://stackoverflow.com/questions/39901308/cant-get-http-get-in-angular2-to-work
+ - https://angular.io/docs/ts/latest/guide/pipes.html
+ - https://angular.io/docs/ts/latest/guide/router.html
 
 # commands I used
 
@@ -41,8 +45,7 @@ npm install -S @angular/forms
 
  - [X] Do an Http request
  - [X] use directives ng-if and ng-repeat
- - [ ] Write a filter
- - [ ] Fix live reload with typescript
+ - [X] Write a filter (pipe)
  - [ ] Add routes
  - [ ] Write another component with events
  - [ ] Write a test

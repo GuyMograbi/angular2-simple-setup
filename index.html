@@ -10,6 +10,16 @@
         <script>
             System.config({
                 transpiler: 'typescript',
+                typescriptOptions: {
+                    'target': 'es5',
+                    'module': 'commonjs',
+                    'moduleResolution': 'node',
+                    'sourceMap': true,
+                    'emitDecoratorMetadata': true,
+                    'experimentalDecorators': true,
+                    'removeComments': false,
+                    'noImplicitAny': false
+                },
                 map: {
                     '@angular/core': './node_modules/@angular/core/bundles/core.umd.js',
                     '@angular/platform-browser-dynamic': './node_modules/@angular/platform-browser-dynamic/bundles/platform-browser-dynamic.umd.js',
@@ -24,6 +34,9 @@
                     './app': {
                         defaultExtension: 'ts'
                     },
+                    '@angular/http':{
+                        defaultExtension:'ts'
+                    },
                     'rxjs': {
                         defaultExtension: 'js'
                     }
@@ -33,12 +46,11 @@
             System.import('./app/main.ts').catch(function (err) {
                 console.error(err);
             });
-            //            System.import('./app/test.ts').catch(function(err){console.error(err);});
-            //            System.import('app').catch(function(err){ console.error(err); });
+            
         </script>
     </head>
     <!-- 3. Display the application -->
     <body>
-        <my-app>Loading...</my-app>
+        <my-app></my-app>
     </body>
 </html>
